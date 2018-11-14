@@ -31,14 +31,14 @@ scrape_ica <- function(url, category) {
     tolower() %>%
     str_replace_all("\\s", "-")
   zz <- linkname %>%
-    paste0("~/Box Sync/Recept/recipes/", category, "/", ., ".md") %>%
+    paste0("~/Box Sync/Recept markdown/recipes/", category, "/", ., ".md") %>%
    file()
   cat(paste0("# ", title,
              "\n\n## Ingredienser\n\n", ingredients,
              "\n\n## Instruktioner\n\n", instructions,
              "\n\n ", source), file = zz)
   close(zz)
-  title_link <- sprintf('<a href="%s.html" title="">%s</a><br>', linkname, title)
+  title_link <- sprintf('[%s](/recipes/%s/%s)', as.character(title), category, as.character(linkname))
   return(title_link)
 }
 
@@ -97,21 +97,21 @@ scrape_dn <- function(url, category) {
     tolower() %>%
     str_replace_all("\\s", "-")
   zz <- linkname %>%
-    paste0("~/Box Sync/Recept/recipes/", category, "/", ., ".md") %>%
+    paste0("~/Box Sync/Recept markdown/recipes/", category, "/", ., ".md") %>%
     file()
   cat(paste0("# ", title,
              "\n\n## Ingredienser\n\n", ingredients,
              "\n\n## Instruktioner\n\n", instructions,
              "\n\n ", source), file = zz)
   close(zz)
-  title_link <- sprintf('<a href="%s.html" title="">%s</a><br>', as.character(linkname), as.character(title))
+  title_link <- sprintf('[%s](/recipes/%s/%s)', as.character(title), category, as.character(linkname))
   return(title_link)
 }
 scrape_koket <- function(url, category) {
 
   temp <- read_html(url) %>%
     html_nodes(".recipe-column-wrapper") %>%
-    html_nodes(xpath = '//*[@id="react-recipe-page"]') %>%
+    html_nodes(xpath = '//*[@id="react-recipe-page-wrapper"]') %>%
     magrittr::extract2(1) %>%
     html_attr("data-item") %>%
     fromJSON
@@ -150,7 +150,7 @@ scrape_koket <- function(url, category) {
     tolower() %>%
     str_replace_all("\\s", "-")
   zz <-  linkname %>%
-    paste0("~/Box Sync/Recept/recipes/", category, "/", ., ".md") %>%
+    paste0("~/Box Sync/Recept markdown/recipes/", category, "/", ., ".md") %>%
     file()
   cat(paste0("# ", title,
              "\n\n## Ingredienser",
@@ -159,7 +159,7 @@ scrape_koket <- function(url, category) {
              "\n\n## Instruktioner\n\n", instructions,
              "\n\n", sourcelink), file = zz)
   close(zz)
-  title_link <- sprintf('<a href="%s.html" title="">%s</a><br>', linkname, title)
+  title_link <- sprintf('[%s](/recipes/%s/%s)', title, category, linkname)
   return(title_link)
 }
 
@@ -191,18 +191,11 @@ scrape <- function(url, category) {
 scrape_vec <- Vectorize(scrape)
 
 skapa_enskild_matsedel <- function(vecka, recept) {
- x <- sprintf('<article class="entry">
-  <header class="entry-header">
-  <h2 class="entry-title">
-  Vecka %d
-  </h2>
-  </header>
-  <div class="entry-content">
-  %s
-  </div>
-  </article>', vecka, paste(recept$title, collapse = "\n"))
+ x <- sprintf('## Vecka %d
 
-   writeLines(x, sprintf("veckosedlar/vecka%d.html", vecka))
+  %s', vecka, paste(recept$title, collapse = "\n"))
+
+   writeLines(x, sprintf("veckosedlar/vecka%d.md", vecka))
 }
 
 skapa_index <- function() {
@@ -211,13 +204,11 @@ skapa_index <- function() {
   temp <- c()
   for (i in 1:length(vecko)) {
     x <- readLines(con = vecko[i])
-    temp <- c(temp, x)
+    temp <- c(temp, "\n\n", x)
   }
   temp <- paste(temp, collapse = "\n")
 
-  index_template <- paste(readLines(con = "index_template.html"), collapse = "\n")
-  index_file <- str_replace(index_template, "\\{\\{ content \\}\\}", temp)
-  writeLines(index_file, "index.html")
+  writeLines(temp, "README.md")
 }
 
 veckodata <- function(veckolista) {
@@ -235,7 +226,7 @@ for (i in 1:length(veckofiler)) {
   temp <- c(temp, veckolista$vecka)
 }
 
-need_to_scrape <- which(file.exists(sprintf("./veckosedlar/vecka%s.html", temp)) == FALSE)
+need_to_scrape <- which(file.exists(sprintf("./veckosedlar/vecka%s.md", temp)) == FALSE)
 if (length(need_to_scrape)>0) {
   for (i in need_to_scrape) {
     source(veckofiler[i])
