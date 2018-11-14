@@ -16,7 +16,7 @@
 * 1 krm svartpeppar
 * tortillabröd
 * salladsblad
-* 2 dl färdig tacosås
+* 1 -  2 dl färdig tacosås
 
 ## Instruktioner
 

@@ -17,7 +17,7 @@
 * 3 msk neutral olja
 * 6 färska tomater
 * 1 tärning grönsaksbuljong
-* 1 pkt förkokta linser (ca 300 gram)
+* 1 förp förkokta linser (ca 300 gram)
 * 70 g blandad sallad
 * 2 lime
 * 1 kruka koriander

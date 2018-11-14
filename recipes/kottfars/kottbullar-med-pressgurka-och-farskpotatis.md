@@ -3,9 +3,9 @@
 ## Ingredienser
 
 * 500 g nötfärs
-* 1 st Gullök
+* 1  Gullök
 * 0,5 dl ströbröd
-* 1 st ägg
+* 1  ägg
 * 1 dl grädde
 * 10 g salt
 * 3 krm vitpeppar
@@ -13,7 +13,7 @@
 * 1 dl öl, ljuslager
 * 1 msk senap
 * 2 dl grädde
-* 1 st gurka
+* 1  gurka
 * 2  kvistar dill
 * 3 msk senapsfrön
 * 1 dl ättika

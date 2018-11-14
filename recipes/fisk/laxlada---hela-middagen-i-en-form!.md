@@ -6,7 +6,7 @@
 * olivolja
 * 4 laxfiléer
 * 1/3 purjolök
-* 1 pkt kikärtor (400 g)
+* 1 förp kikärtor (400 g)
 * 2 klyftor vitlök
 * 150 g fetaost
 * 1 knippe dill

@@ -9,16 +9,16 @@
 
 ### Kycklinggryta
 * 600 g kycklingfilé
-* 1 pkt Paul&Thom Chorizo Atado
+* 1 förp Paul&Thom Chorizo Atado
 * 1 gul lök
 * 2 klyftor vitlök
 * smör och/olja till stekning
 * 1,5 dl vitt vin
 * 3 dl vispgrädde
-* 1 pkt Paul&Thom soltorkade plommontomater
+* 1 förp Paul&Thom soltorkade plommontomater
 * 0,5 kruka timjan
 * salt och svartpeppar
-* 0,5 burk Paul&Thom kalamata oliver
+* 0,5 förp Paul&Thom kalamata oliver
 
 ## Instruktioner
 

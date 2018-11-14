@@ -3,8 +3,8 @@
 ## Ingredienser
 
 * 250 g bacon
-* 1 st lök
-* 3 st ägg
+* 1  lök
+* 3  ägg
 * 2 msk mjölk
 *   parmesanost till servering
 *   salt

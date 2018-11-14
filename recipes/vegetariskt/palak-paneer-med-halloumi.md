@@ -12,7 +12,7 @@
 * 2 tsk garam masala
 * 1,5 tsk chilipulver
 * 200 g färsk spenat
-* 2 pkt halloumi, i kuber
+* 2 förp halloumi, i kuber
 * 3 dl grädde
 * salt
 

@@ -2,7 +2,7 @@
 
 ## Ingredienser
 
-* 1 pkt FELIX morotsbollar
+* 1 förp FELIX morotsbollar
 * 4 port couscous
 * 1 avokado, tärnad
 * 150 g fetaost

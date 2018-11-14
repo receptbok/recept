@@ -1,7 +1,3 @@
 ## Vecka 10
 
-  [Bakade betor med getost och bovete](/recipes/vegetariskt/bakade-betor-med-getost-och-bovete)
-[One pot kyckling alfredo](/recipes/kyckling/one-pot-kyckling-alfredo)
-[Morotssoppa med ingefära och chili](/recipes/vegetariskt/morotssoppa-med-ingefara-och-chili)
-[Sötpotatis med getost, rödlök och spenat](/recipes/vegetariskt/sotpotatis-med-getost-rodlok-och-spenat)
-[Ugnsbakad torsk med citronsås](/recipes/fisk/ugnsbakad-torsk-med-citronsas)
+  [Fiskgratäng med citron och basilika](/recipes/fisk/fiskgratang-med-citron-och-basilika.md)<br/>[Pasta med kalkonbacon och broccoli](/recipes/kyckling/pasta-med-kalkonbacon-och-broccoli.md)<br/>[Krämig kalkongryta med bönor](/recipes/kyckling/kramig-kalkongryta-med-bonor.md)<br/>[Gratinerad falukorv](/recipes/korv/gratinerad-falukorv.md)<br/>[Köttfärspaj med mozzarella](/recipes/kottfars/kottfarspaj-med-mozzarella.md)

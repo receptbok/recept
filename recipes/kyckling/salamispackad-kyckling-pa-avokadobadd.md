@@ -2,17 +2,17 @@
 
 ## Ingredienser
 
-* 4 st kycklingfiléer
+* 4  kycklingfiléer
 * 1 msk olja
 * 1 msk soja
 *   Svartpeppar, efter smak
 *   12–16 skivor god salami
-* 2 st avokado
-* 0,5 st rödlök, finhackad
+* 2  avokado
+* 0,5  rödlök, finhackad
 * 1-2 tsk pressad lime
 *   Salt, efter smak
 *   Svartpeppar, efter smak
-* 4 st skivor lantbröd
+* 4  skivor lantbröd
 *   lite olivolja
 
 ### Servering

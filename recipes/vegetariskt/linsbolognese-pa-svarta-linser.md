@@ -11,7 +11,7 @@
 * 1 förp krossade tomater (à 390 g)
 * 1 1/2 dl svarta- eller belugalinser
 * 1 grönsaksbuljongtärning
-* 5 dl vatten
+* 4 -  5 dl vatten
 * 1 tsk strösocker
 * 1 tsk salt
 * 1/2 tsk svartpeppar

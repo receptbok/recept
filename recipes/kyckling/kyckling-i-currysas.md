@@ -10,7 +10,7 @@
 * 1  persiljekvist
 * 5  vitpepparkorn
 * 1  litet lagerblad
-* 1,25 liter vatten (ca)
+* 1,25 l vatten (ca)
 
 ### Currysås:
 * 0,5  gul lök

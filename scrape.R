@@ -38,7 +38,7 @@ scrape_ica <- function(url, category) {
              "\n\n## Instruktioner\n\n", instructions,
              "\n\n ", source), file = zz)
   close(zz)
-  title_link <- sprintf('[%s](/recipes/%s/%s)', as.character(title), category, as.character(linkname))
+  title_link <- sprintf('[%s](/recipes/%s/%s.md)', as.character(title), category, as.character(linkname))
   return(title_link)
 }
 
@@ -104,7 +104,7 @@ scrape_dn <- function(url, category) {
              "\n\n## Instruktioner\n\n", instructions,
              "\n\n ", source), file = zz)
   close(zz)
-  title_link <- sprintf('[%s](/recipes/%s/%s)', as.character(title), category, as.character(linkname))
+  title_link <- sprintf('[%s](/recipes/%s/%s.md)', as.character(title), category, as.character(linkname))
   return(title_link)
 }
 scrape_koket <- function(url, category) {
@@ -159,7 +159,7 @@ scrape_koket <- function(url, category) {
              "\n\n## Instruktioner\n\n", instructions,
              "\n\n", sourcelink), file = zz)
   close(zz)
-  title_link <- sprintf('[%s](/recipes/%s/%s)', title, category, linkname)
+  title_link <- sprintf('[%s](/recipes/%s/%s.md)', title, category, linkname)
   return(title_link)
 }
 
@@ -193,7 +193,7 @@ scrape_vec <- Vectorize(scrape)
 skapa_enskild_matsedel <- function(vecka, recept) {
  x <- sprintf('## Vecka %d
 
-  %s', vecka, paste(recept$title, collapse = "\n"))
+  %s', vecka, paste(recept$title, collapse = "<br/>"))
 
    writeLines(x, sprintf("veckosedlar/vecka%d.md", vecka))
 }
@@ -221,10 +221,13 @@ veckodata <- function(veckolista) {
 veckofiler <- list.files("./veckor", full.names = TRUE)
 
 temp <- c()
-for (i in 1:length(veckofiler)) {
-  source(veckofiler[i])
-  temp <- c(temp, veckolista$vecka)
+if (length(veckofiler)>0) {
+  for (i in 1:length(veckofiler)) {
+    source(veckofiler[i])
+    temp <- c(temp, veckolista$vecka)
+  }
 }
+
 
 need_to_scrape <- which(file.exists(sprintf("./veckosedlar/vecka%s.md", temp)) == FALSE)
 if (length(need_to_scrape)>0) {
