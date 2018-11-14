@@ -238,3 +238,19 @@ if (length(need_to_scrape)>0) {
 }
 
 suppressWarnings(skapa_index())
+
+
+
+kategorier <- list.files("./recipes", full.names = TRUE)
+for (i in 1:length(kategorier)) {
+  recept <- list.files(kategorier[i], full.names = TRUE)
+  temp <- rep("a", length(recept))
+  for (j in 1:length(recept)) {
+    temp[j] <- sprintf("[%s](%s)", 
+            gsub("# ", "", readLines(con = list.files(kategorier[i], full.names = TRUE)[j])[1]),
+            gsub("\\./", "/", list.files(kategorier[i], full.names = TRUE)[j]))
+  }
+  writeLines(paste0("# ", stringr::str_to_title(gsub("\\./recipes/", "", kategorier[i])), "<br/><br/>",
+                    paste(temp, collapse = "<br/>"), sprintf("%s.md", gsub("\\./recipes/", "", kategorier[i]))))
+}
+
