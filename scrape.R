@@ -183,7 +183,7 @@ scrape <- function(url, category) {
 
   if (ica == 0 && koket == 0 && dn == 0) {
     title <- gsub("^#\\s", "", readLines(sprintf("recipes/%s/%s.md", category, url))[1])
-    temp <- sprintf('<a href="%s.html" title="">%s</a><br>', url, title)
+    temp <- sprintf('<a href="%s.html" title="">%s</a>', url, title)
   }
   return(temp)
 }
@@ -250,7 +250,7 @@ for (i in 1:length(kategorier)) {
             gsub("# ", "", readLines(con = list.files(kategorier[i], full.names = TRUE)[j])[1]),
             gsub("\\./", "/", list.files(kategorier[i], full.names = TRUE)[j]))
   }
-  writeLines(paste0("# ", stringr::str_to_title(gsub("\\./recipes/", "", kategorier[i])), "<br/><br/>",
-                    paste(temp, collapse = "<br/>"), sprintf("%s.md", gsub("\\./recipes/", "", kategorier[i]))))
+  writeLines(paste0("# ", stringr::str_to_title(gsub("\\./recipes/", "", kategorier[i])), "<br/><br/>\n\n",
+                    paste(temp, collapse = "<br/>")), sprintf("%s.md", gsub("\\./recipes/", "", kategorier[i])))
 }
 
