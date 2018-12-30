@@ -1,3 +1,0 @@
-## Vecka 17
-
-  [Krämig nudelsoppa med curry och cashewnötter](/recipes/vegetariskt/kramig-nudelsoppa-med-curry-och-cashewnotter.md)<br/>[Sparrispizza med bovete och citron](/recipes/vegetariskt/sparrispizza-med-bovete-och-citron.md)<br/>[Laxlåda - hela middagen i en form!](/recipes/fisk/laxlada---hela-middagen-i-en-form!.md)<br/>[Mexikansk pytt med paprika, tomat och lättstekt ägg](/recipes/texmex/mexikansk-pytt-med-paprika-tomat-och-lattstekt-agg.md)<br/>[Palak paneer med halloumi](/recipes/vegetariskt/palak-paneer-med-halloumi.md)<br/>[Chili con carne à la Myllymäki](/recipes/texmex/chili-con-carne-à-la-myllymaki.md)

@@ -1,3 +1,0 @@
-## Vecka 18
-
-  [Kryddiga morots- och sesamplättar med fetayoghurt](/recipes/vegetariskt/kryddiga-morots--och-sesamplattar-med-fetayoghurt.md)<br/>[Baconpasta med broccoli](/recipes/pasta/baconpasta-med-broccoli.md)<br/>[Kycklingsteak med srirachayoghurt och varm sparrissallad](/recipes/kyckling/kycklingsteak-med-srirachayoghurt-och-varm-sparrissallad.md)<br/>[Lax med tomatveteotto och rostade rotfrukter](/recipes/fisk/lax-med-tomatveteotto-och-rostade-rotfrukter.md)<br/>[Laxwrap med fetaostkräm och snabbpicklad gurka](/recipes/fisk/laxwrap-med-fetaostkram-och-snabbpicklad-gurka.md)<br/>[Vego curry med okra](/recipes/vegetariskt/vego-curry-med-okra.md)
