@@ -2,7 +2,6 @@
 
 ## Ingredienser
 
-### Kyckling
 * 1,5 kg kycklinglår
 * 1 dl japansk/koreansk soja
 * 3 msk strösocker
@@ -11,19 +10,15 @@
 * 3 klyftor vitlök, rivna
 * 1 msk vita sesamfrön
 * några drag med pepparkvarnen
-
-### Coleslaw
 * 1 klyfta vitkål
 * 1 tsk risvinäger
-* 1 morot
-* 4 salladslökar
+* 1  morot
+* 4  salladslökar
 * 1-2 msk gochujang (koreansk chilipasta)
 * 1 dl god majonnäs
 * 2 tsk ingefära, riven
 * 1 klyfta vitlök, riven
 * salt
-
-### Servering
 * 4 port koreanskt/japanskt ris, kokt
 
 ## Instruktioner

@@ -4,15 +4,13 @@
 
 * 1 kruka salvia
 * 3 klyftor vitlök
-*   olivolja
+* olivolja
 * 500 g laxfilé
 * 1  gul  lök
 * 4  stjälkselleri
 * 400 g cocktailtomater på burk
 * 400 g fast potatis
-
-### Till servering:
-*   gott bröd eller pasta
+* gott bröd eller pasta
 
 ## Instruktioner
 

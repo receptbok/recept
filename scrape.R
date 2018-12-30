@@ -175,7 +175,7 @@ scrape <- function(url, category) {
 
   if (ica == 0 && koket == 0 && dn == 0) {
     title <- gsub("^#\\s", "", readLines(sprintf("recipes/%s/%s.md", category, url))[1])
-    temp <- sprintf('<a href="%s.html" title="">%s</a>', url, title)
+    temp <- sprintf('<a href="recipes/%s/%s.html" title="">%s</a>', category, url, title)
   }
   return(temp)
 }
