@@ -3,16 +3,16 @@
 ## Ingredienser
 
 * 1 msk rapsolja
-* 0,5 gul lök, hackad
-* 0,5 morot, hackad i grova tärningar
-* 0,5 palsternacka, liten, hackad i tärningar
+* 0,5  gul lök, hackad
+* 0,5  morot, hackad i grova tärningar
+* 0,5  palsternacka, liten, hackad i tärningar
 * 1,5 dl röda linser, kokade
 * 1,5 dl gröna linser, kokade
 * 150 g sötpotatis, hackad i tärningar
 * 1 msk röd currypasta
-* 1 buljongtärning
+* 1  buljongtärning
 * 1 tsk salt
-* 0,5 vitlöksklyfta
+* 0,5  vitlöksklyfta
 * 0,5 tsk ingefära, färsk, riven
 * 1 krm chiliflakes
 * 1 krm spiskummin

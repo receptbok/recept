@@ -2,24 +2,21 @@
 
 ## Ingredienser
 
-### Kokosris
 * 3 dl basmatiris
 * 400 ml kokosmjölk
 * 2 dl vatten
 * salt
-
-### Halloumigryta
 * 400 g halloumi (2 paket)
-* 1 gul lök
-* 2 morötter
+* 1  gul lök
+* 2  morötter
 * 4 klyftor vitlök
-* 1 grön chili
+* 1  grön chili
 * 3 msk neutral olja
-* 6 färska tomater
+* 6  färska tomater
 * 1 tärning grönsaksbuljong
 * 1 förp förkokta linser (ca 300 gram)
 * 70 g blandad sallad
-* 2 lime
+* 2  lime
 * 1 kruka koriander
 * salt och peppar
 

@@ -4,13 +4,13 @@
 
 * 500 g potatis, kokt
 * olivolja
-* 4 laxfiléer
-* 1/3 purjolök
+* 4  laxfiléer
+* 0,33  purjolök
 * 1 förp kikärtor (400 g)
 * 2 klyftor vitlök
 * 150 g fetaost
 * 1 knippe dill
-* 1 citron, rivet skal från
+* 1  citron, rivet skal från
 * 2 dl turkisk yoghurt
 * 2 dl förkokta gröna ärtor (frysta som tinats)
 

@@ -5,14 +5,14 @@
 * 500 g fiskfilé, t.ex. kolja
 * 2  gula lökar
 * 3  vitlöksklyftor
-*   olja
+* olja
 * 1  paprika av valfri färg
 * 1  burk hela tomater
 * 2 dl vitt vin
 * 1  fiskbuljongtärning
-*   salt
-*   peppar
-*   citron
+* salt
+* peppar
+* citron
 
 ## Instruktioner
 

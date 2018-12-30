@@ -2,19 +2,17 @@
 
 ## Ingredienser
 
-* 5-6 ägg
+* 5-6  ägg
 * 3 msk vatten
-* 2 små rödlökar, skivade
+* 2  små rödlökar, skivade
 * citronsaft
 * potatis, kokt skivad
 * 50 g färsk babyspenat
-* 8 körsbärstomater, skurna i halvor
+* 8  körsbärstomater, skurna i halvor
 * 100 g mozzarella, skuren eller riven i små bitar
 * 2 dl parmesanost,  färskriven
 * 2-3 msk olivolja
 * salt och svartpeppar
-
-### Servering
 * ruccola
 * parmesanost, riven
 

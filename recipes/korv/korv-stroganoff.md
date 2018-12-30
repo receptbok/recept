@@ -4,11 +4,11 @@
 
 * 500 g falukorv
 * 1  gul lök
-*   smör eller margarin
+* smör eller margarin
 * 3 msk tomatpuré
 * 2 tsk dijonsenap
-*   salt och peppar
-*   hackad persilja
+* salt och peppar
+* hackad persilja
 * 2 dl grädde
 
 ## Instruktioner

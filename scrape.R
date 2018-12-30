@@ -109,38 +109,31 @@ scrape_dn <- function(url, category) {
 }
 scrape_koket <- function(url, category) {
 
-  temp <- read_html(url) %>%
+  title <- read_html(url) %>%
     html_nodes(".recipe-column-wrapper") %>%
-    html_nodes(xpath = '//*[@id="react-recipe-page-wrapper"]') %>%
-    magrittr::extract2(1) %>%
-    html_attr("data-item") %>%
-    fromJSON
+    html_nodes("h1") %>% 
+    html_text()
 
-  title <- temp$name
-
-  instructions <- temp$cooking_steps %>%
+  instructions <- read_html(url) %>%
+    html_nodes(".recipe-column-wrapper") %>%
+    html_nodes(xpath = '//*[@id="step-by-step"]') %>%
+    html_nodes(xpath = '//*[@class="step-by-step"]') %>% 
+    html_nodes(xpath = '//*[@itemprop="recipeInstructions"]') %>% xml_children %>% as.character() %>% gsub("<li>|</li>|</span>|<span>|\n|<br>|<b>", "", .) %>% gsub("</b>", ": ", .) %>%
     paste(collapse = "\n* ") %>%
     paste0("* ", .)
 
-  if (str_count(instructions, "<br>") > 0) {instructions <- str_replace_all(instructions, "<br>\n", ": ")}
-  if (str_count(instructions, "<b>|</b>") > 0) {
-    instructions <- str_replace_all(instructions, "<b>|</b>", "")
-  }
-
-  ingredient_all <- temp$ingredients
-  ingredients <- c()
-
-  for (i in 1:nrow(ingredient_all)) {
-    if (ingredient_all$ingredient[i]) {
-      ingredients <- c(ingredients, sprintf("\n* %s %s %s",
-                                            ingredient_all$amount[i],
-                                            ingredient_all$unit[i],
-                                            ingredient_all$name[i]))
-    } else {
-      ingredients <- c(ingredients, sprintf("\n\n### %s", ingredient_all$name[i]))
-    }
-  }
-  ingredients <- str_replace_all(ingredients, "NA ", "")
+  ingredients <- read_html(url) %>%
+    html_nodes(".recipe-column-wrapper") %>%
+    html_nodes(xpath = '//*[@id="ingredients"]') %>%
+    html_nodes(xpath = '//*[@class="ingredient"]') %>% 
+    xml_children %>% 
+    as.character() %>% 
+    gsub("<span>|</span>", "", .) %>% 
+    matrix(ncol=2,byrow=TRUE) %>% 
+    apply(1, function(x) paste(x, collapse = "")) %>% 
+    stringr::str_trim() %>%
+    paste(collapse = "\n* ") %>%
+    paste("*", .)
   sourcelink <- paste0("Källa: [Köket.se](", url, ")")
 
   linkname <- title %>%
@@ -153,9 +146,8 @@ scrape_koket <- function(url, category) {
     paste0("~/Box Sync/Recept markdown/recipes/", category, "/", ., ".md") %>%
     file()
   cat(paste0("# ", title,
-             "\n\n## Ingredienser",
-             rep("\n", 2-str_count(ingredients[1], "\n")),
-             paste(ingredients, collapse = ""),
+             "\n\n## Ingredienser\n\n",
+             ingredients,
              "\n\n## Instruktioner\n\n", instructions,
              "\n\n", sourcelink), file = zz)
   close(zz)
@@ -232,6 +224,7 @@ if (length(veckofiler)>0) {
 need_to_scrape <- which(file.exists(sprintf("./veckosedlar/vecka%s.md", temp)) == FALSE)
 if (length(need_to_scrape)>0) {
   for (i in need_to_scrape) {
+    cat("Scraping %s\n", veckofiler[i])
     source(veckofiler[i])
     veckodata(veckolista)
   }

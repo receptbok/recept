@@ -2,17 +2,14 @@
 
 ## Ingredienser
 
-### Vit pizzasås
 * 1,5 dl crème fraiche, smetana eller gräddfil
 * en skvätt vatten
-
-### Sparrispizza
-* 1 pizzadeg
+* 1  pizzadeg
 * 1,5 dl vit sås
-* 5 sparrisar
+* 5  sparrisar
 * 1 msk helt bovete
-* 1 citron
-* 0,5 buffelmozzarella
+* 1  citron
+* 0,5  buffelmozzarella
 * 1 msk dill, hackad
 
 ## Instruktioner

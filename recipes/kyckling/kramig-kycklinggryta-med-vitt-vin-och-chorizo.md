@@ -2,23 +2,20 @@
 
 ## Ingredienser
 
-### Potatis
 * 600 g potatis
 * olivolja
 * salt
-
-### Kycklinggryta
 * 600 g kycklingfilé
-* 1 förp Paul&Thom Chorizo Atado
-* 1 gul lök
+* 1 förp Paul&amp;Thom Chorizo Atado
+* 1  gul lök
 * 2 klyftor vitlök
 * smör och/olja till stekning
 * 1,5 dl vitt vin
 * 3 dl vispgrädde
-* 1 förp Paul&Thom soltorkade plommontomater
+* 1 förp Paul&amp;Thom soltorkade plommontomater
 * 0,5 kruka timjan
 * salt och svartpeppar
-* 0,5 förp Paul&Thom kalamata oliver
+* 0,5 förp Paul&amp;Thom kalamata oliver
 
 ## Instruktioner
 

@@ -2,23 +2,20 @@
 
 ## Ingredienser
 
-### Tomatsås
 * 400 g krossade tomater
 * 0,5 dl persilja, hackad
 * 0,5 dl gul lök, hackad
-* 1 chilipeppar, hackad
+* 1  chilipeppar, hackad
 * 2 klyftor vitlök, rivna
 * 1 tsk spiskummin
-
-### Huevos rancheros
 * 300 g färsk chorizo
 * ca 400 g kokta svarta bönor
-* 4 tortillabröd
-* 4 ägg
+* 4  tortillabröd
+* 4  ägg
 * salt och peppar
 * 1 kruka koriander
-* 1 avokado
-* 1 lime
+* 1  avokado
+* 1  lime
 
 ## Instruktioner
 

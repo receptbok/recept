@@ -6,17 +6,17 @@
 * salt och peppar
 * 2 msk paprikapulver
 * olja
-* 1 stor röd paprika
-* 1 stor gul paprika
-* 3 stora tomater
-* 1 stor gul lök
+* 1  stor röd paprika
+* 1  stor gul paprika
+* 3  stora tomater
+* 1  stor gul lök
 * 2 klyftor vitlök
-* 1 anchochili, kokas i vatten 5 minuter
-* 1 grön dutch chili (spansk peppar)
+* 1  anchochili, kokas i vatten 5 minuter
+* 1  grön dutch chili (spansk peppar)
 * 1 msk hel spiskummin
-* 4 ägg
-* 0,5 silverlök
-* 1 stor lime, saften
+* 4  ägg
+* 0,5  silverlök
+* 1  stor lime, saften
 * 1 knippe koriander
 * ev lite chili
 * 1 dl crème fraiche

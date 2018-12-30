@@ -2,9 +2,9 @@
 
 ## Ingredienser
 
-* 2 gula lökar
+* 2  gula lökar
 * 5 klyftor vitlök
-* 2 röda chilis
+* 2  röda chilis
 * 3 tsk spiskummin
 * 2 tsk oregano
 * 2 tsk rökt paprikapulver
@@ -13,7 +13,7 @@
 * socker
 * 600 g nötfärs (gärna grovmalen)
 * 2 msk tomatpuré
-* 1 lagerblad
+* 1  lagerblad
 * 400 g tomatkross
 * 400 g förkokta kidneybönor
 * ca 4 dl kalvbuljong (utspädd)

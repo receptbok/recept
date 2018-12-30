@@ -6,9 +6,9 @@
 * 1  lök
 * 3  ägg
 * 2 msk mjölk
-*   parmesanost till servering
-*   salt
-*   svartpeppar
+* parmesanost till servering
+* salt
+* svartpeppar
 * 1 knippe persilja till servering
 * 500 g spaghetti
 
