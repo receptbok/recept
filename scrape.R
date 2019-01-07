@@ -224,7 +224,7 @@ if (length(veckofiler)>0) {
 need_to_scrape <- which(file.exists(sprintf("./veckosedlar/vecka%s.md", temp)) == FALSE)
 if (length(need_to_scrape)>0) {
   for (i in need_to_scrape) {
-    cat("Scraping %s\n", veckofiler[i])
+    cat("Scraping", veckofiler[i], "\n")
     source(veckofiler[i])
     veckodata(veckolista)
   }
