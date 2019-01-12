@@ -17,11 +17,11 @@
 ### Sås
 
 * 1 msk sesamolja
-* 1 msk ljus sojasås
+* 2 msk ljus sojasås
 * 1 tsk chiliolja
-* 1 tsk risvinäger
+* 2 msk svart vinäger
 * 1 finhackad vitlök
-* 1 finhackad salladslök
+* 2 finhackad salladslökar
 
 ## Instruktioner
 
