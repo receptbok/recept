@@ -19,6 +19,12 @@
 
 
 
+## Vecka 4
+
+  [Kycklingfärs i hoisinsås med pak choi](/recipes/asiatiskt/kycklingfars-i-hoisinsas-med-pak-choi.md)<br/>[Spicy garlic ramen](/recipes/asiatiskt/spicy-garlic-ramen.md)<br/>[Lins- och bönchili](/recipes/texmex/lins--och-bonchili.md)<br/>[Masala med kikärter och spenat](/recipes/asiatiskt/masala-med-kikarter-och-spenat.md)
+
+
+
 ## Vecka 3
 
   [Kycklingbullar med grönsaksyoghurt](/recipes/kyckling/kycklingbullar-med-gronsaksyoghurt.md)<br/>[Grön couscous med tomat och halloumi](/recipes/vegetariskt/gron-couscous-med-tomat-och-halloumi.md)<br/>[Tom kha phak - soppa](/recipes/asiatiskt/tom-kha-phak---soppa.md)<br/>[Dhal med koriander och tomat](/recipes/asiatiskt/dhal-med-koriander-och-tomat.md)<br/>[Nudelsoppa med kokos och grönt](/recipes/asiatiskt/nudelsoppa-med-kokos-och-gront.md)<br/>[Stekt lax med dragonkräm](/recipes/fisk/stekt-lax-med-dragonkram.md)<br/><a href="recipes/texmex/tacos-de-frijoles-negros-–-tacos-med-svarta-bonor.html" title="">Tacos de frijoles negros – tacos med svarta bönor</a>
