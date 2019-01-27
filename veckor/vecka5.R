@@ -5,7 +5,7 @@ veckolista <- list(
     "asiatiskt", "tofubullar",
     "asiatiskt", "spenatsallad",
     "asiatiskt", "marinerad-salladskal",
-    "asiatiskt", "misosoppa-med-salladskal"
-    
+    "asiatiskt", "misosoppa-med-salladskal",
+    "asiatiskt", "palak-paneer"
   ),
   vecka = 5)
