@@ -191,15 +191,18 @@ skapa_enskild_matsedel <- function(vecka, recept) {
 }
 
 skapa_index <- function() {
-  vecko <- list.files("./veckosedlar", full.names = TRUE) %>%
+  vecko <- list.files("./veckor", full.names = TRUE) %>%
     sort(decreasing = TRUE)
-  temp <- c()
-  for (i in 1:length(vecko)) {
-    x <- readLines(con = vecko[i])
-    temp <- c(temp, "\n\n", x)
-  }
-  temp <- paste(temp, collapse = "\n")
-
+  most_recent <- which.max(map_dbl(vecko, function(x) file.info(x)$mtime))
+  file_name <- sprintf("./veckosedlar/vecka%d.md", as.numeric(gsub("[^0-9]", "", vecko)[most_recent]))
+  #temp <- c()
+  #for (i in 1:length(vecko)) {
+  #  inf <- file.info(vecko[i])
+  #  x <- readLines(con = vecko[i])
+  #  temp <- c(temp, "\n\n", x)
+  #}
+  #temp <- paste(temp, collapse = "\n")
+  temp <- readLines(con = file_name)
   writeLines(temp, "README.md")
 }
 
