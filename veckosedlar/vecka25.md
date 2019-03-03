@@ -1,3 +1,0 @@
-## Vecka 25
-
-  [Ugnsbakad lax med örtig linsragu](/recipes/fisk/ugnsbakad-lax-med-ortig-linsragu.md)<br/>[Quesadilla med mexikansk kålsallad](/recipes/texmex/quesadilla-med-mexikansk-kalsallad.md)<br/>[Italiensk frittata med citronkokt lök](/recipes/vegetariskt/italiensk-frittata-med-citronkokt-lok.md)<br/>[Grönkålspaj med ädelost](/recipes/vegetariskt/gronkalspaj-med-adelost.md)<br/>[Strimlad kyckling teriyaki](/recipes/asiatiskt/strimlad-kyckling-teriyaki.md)<br/>[Pad thai med jordnötter och koriander](/recipes/asiatiskt/pad-thai-med-jordnotter-och-koriander.md)
