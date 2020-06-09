@@ -209,6 +209,7 @@ scrape <- function(url, category) {
   ica <- str_count(url, "www.ica.se")
   koket <- str_count(url, "www.koket.se")
   dn <- str_count(url, "www.dn.se")
+  coop <- str_count(url, "www.coop.se")
 
   if (ica == 1) {
     temp <- scrape_ica(url, category)
@@ -222,7 +223,11 @@ scrape <- function(url, category) {
     temp <- scrape_dn(url, category)
   }
 
-  if (ica == 0 && koket == 0 && dn == 0) {
+  if (coop == 1) {
+    temp <- scrape_coop(url, category)
+  }
+  
+  if (ica == 0 && koket == 0 && dn == 0 && coop == 0) {
     title <- gsub("^#\\s", "", readLines(sprintf("recipes/%s/%s.md", category, url))[1])
     temp <- sprintf('<a href="recipes/%s/%s.html" title="">%s</a>', category, url, title)
   }
