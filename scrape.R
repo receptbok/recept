@@ -15,7 +15,7 @@ scrape_coop <- function(url, category) {
     html_text() %>% 
     paste(collapse = " ") %>%
     str_replace_all("\\r", "") %>%
-    str_replace_all("\\n", "*") %>%
+    str_replace_all("\\n", "* ") %>%
     str_trim() %>%
     gsub("\\s+", " ", .) %>%
     str_replace_all("\\*", "\n\\*") %>%
