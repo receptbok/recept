@@ -3,6 +3,55 @@ library(tidyverse)
 library(stringr)
 library(jsonlite)
 
+scrape_coop <- function(url, category) {
+  webpage <- read_html(url)
+  title <- webpage %>% 
+    html_nodes("h1") %>% 
+    html_text() %>% 
+    unique() %>% 
+    .[1]
+  
+  instructions <- html_nodes(webpage,"ol") %>%
+    html_text() %>% 
+    paste(collapse = " ") %>%
+    str_replace_all("\\r", "") %>%
+    str_replace_all("\\n", "*") %>%
+    str_trim() %>%
+    gsub("\\s+", " ", .) %>%
+    str_replace_all("\\*", "\n\\*") %>%
+    sub("\\n\\*$", "", .) %>%
+    paste0("* ", .)
+  
+  ingredients <- webpage %>% 
+    html_nodes("[class='List List--section']") %>%
+    html_nodes("[class='u-paddingHxsm u-textNormal u-colorBase']") %>%
+    html_text() %>%
+    gsub("\\s+", " ", .) %>%
+    str_trim() %>%
+    paste(collapse = "\n*") %>%
+    paste0("*", .)
+  
+  source <- paste0("Källa: [Coop](", url, ")")
+  
+  linkname <- title %>%
+    str_replace_all("[åäÅÄ]", "a") %>%
+    str_replace_all("[öÖ]", "o") %>%
+    str_replace_all("[éè]", "e") %>%
+    str_replace(",", "") %>%
+    tolower() %>%
+    str_replace_all("\\s", "-")
+  zz <- linkname %>%
+    paste0("~/Box Sync/Recept markdown/recipes/", category, "/", ., ".md") %>%
+    file()
+  cat(paste0("# ", title,
+             "\n\n## Ingredienser\n\n", ingredients,
+             "\n\n## Instruktioner\n\n", instructions,
+             "\n\n ", source), file = zz)
+  close(zz)
+  title_link <- sprintf('[%s](/recipes/%s/%s.md)', as.character(title), category, as.character(linkname))
+  return(title_link)
+}
+
 scrape_ica <- function(url, category) {
   webpage <- read_html(url)
   title <- html_nodes(webpage,'.recipepage__headline') %>%
