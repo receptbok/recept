@@ -51,9 +51,14 @@ scrape_coop <- function(url, category) {
   
   ingredients <- c()
   for (i in 1:length(ingredienslista$namn)) {
-    collapsedingred <- paste(unlist(ingredienslista$ingredienser), collapse = "\n")
     if (ingredienslista$namn[i] != " ") {
-      collapsedingred <- paste0("### ", ingredienslista$namn[i], "\n\n", ingredienslista$ingredienser[i])
+      if (i>1) {
+        collapsedingred <- paste0("\n### ", ingredienslista$namn[i], "\n\n", ingredienslista$ingredienser[i])
+      } else {
+        collapsedingred <- paste0("### ", ingredienslista$namn[i], "\n\n", ingredienslista$ingredienser[i])
+      }
+    } else {
+      collapsedingred <- ingredienslista$ingredienser[i]
     }
     ingredients <- c(ingredients, collapsedingred)
   }
