@@ -11,13 +11,11 @@
 * 1 citron, till servering
 
 ### Picklad rödlök
-
 * 2 rödlökar
 * 2 tsk strösocker
 * 5 msk vinäger (t ex röd eller vit)
 
 ### Broccolipuré
-
 * 500 g fryst broccoli
 * 100 g cream cheese
 * 1 tsk salt
