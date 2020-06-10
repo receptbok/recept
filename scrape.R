@@ -22,12 +22,50 @@ scrape_coop <- function(url, category) {
     sub("\\n\\*$", "", .) %>%
     paste0("* ", .)
   
+  ingredienslista <- list(namn = c(), ingredienser = list())
+  ingredienshtml <- webpage %>% 
+    html_nodes("[class='List List--section']")
+  
+  for (i in 1:length(ingredienshtml)) {
+    namn <- ingredienshtml %>%
+      .[i] %>%
+      html_nodes("[class='List-heading u-textLarge u-textWeightBold']") %>%
+      html_text()
+    if (length(namn)==0) {
+      namn <- " "
+    }
+    ingredienslista$namn <- c(ingredienslista$namn, namn)
+    ingredienslista$ingredienser[i] <- ingredienshtml %>%
+      .[i] %>%
+      html_nodes("[class='u-paddingHxsm u-textNormal u-colorBase']") %>%
+      html_text() %>%
+      gsub("\\s+", " ", .) %>%
+      str_trim() %>%
+      paste(collapse = "\n* ") %>%
+      paste0("* ", .)
+  }
+  idx <- !(duplicated(ingredienslista$namn) & duplicated(ingredienslista$ingredienser))
+  ingredienslista$namn <- ingredienslista$namn[idx]
+  ingredienslista$ingredienser <- ingredienslista$ingredienser[idx]
+  
+  ingredients <- c()
+  for (i in 1:length(ingredienslista$namn)) {
+    collapsedingred <- paste(unlist(ingredienslista$ingredienser), collapse = "\n")
+    if (ingredienslista$namn[i] != " ") {
+      collapsedingred <- paste0("### ", ingredienslista$namn[i], "\n\n", collapsedingred)
+    }
+    ingredients <- c(ingredients, collapsedingred)
+  }
+  
+
+  
   ingredients <- webpage %>% 
     html_nodes("[class='List List--section']") %>%
     html_nodes("[class='u-paddingHxsm u-textNormal u-colorBase']") %>%
     html_text() %>%
     gsub("\\s+", " ", .) %>%
     str_trim() %>%
+    .[1:(length(.)/2)] %>%
     paste(collapse = "\n* ") %>%
     paste0("* ", .)
   

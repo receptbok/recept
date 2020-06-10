@@ -15,19 +15,6 @@
 * 500 g fryst broccoli
 * 100 g cream cheese
 * 1 tsk salt
-* 400 g torskfilé
-* 1 ägg
-* 1 dl vetemjöl
-* 2 dl ströbröd
-* 1 msk smör
-* 1 msk olja
-* 1 citron, till servering
-* 2 rödlökar
-* 2 tsk strösocker
-* 5 msk vinäger (t ex röd eller vit)
-* 500 g fryst broccoli
-* 100 g cream cheese
-* 1 tsk salt
 
 ## Instruktioner
 
