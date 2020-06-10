@@ -58,16 +58,16 @@ scrape_coop <- function(url, category) {
   }
   
 
-  
-  ingredients <- webpage %>% 
-    html_nodes("[class='List List--section']") %>%
-    html_nodes("[class='u-paddingHxsm u-textNormal u-colorBase']") %>%
-    html_text() %>%
-    gsub("\\s+", " ", .) %>%
-    str_trim() %>%
-    .[1:(length(.)/2)] %>%
-    paste(collapse = "\n* ") %>%
-    paste0("* ", .)
+  # 
+  # ingredients <- webpage %>% 
+  #   html_nodes("[class='List List--section']") %>%
+  #   html_nodes("[class='u-paddingHxsm u-textNormal u-colorBase']") %>%
+  #   html_text() %>%
+  #   gsub("\\s+", " ", .) %>%
+  #   str_trim() %>%
+  #   .[1:(length(.)/2)] %>%
+  #   paste(collapse = "\n* ") %>%
+  #   paste0("* ", .)
   
   source <- paste0("Källa: [Coop](", url, ")")
   
