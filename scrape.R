@@ -13,6 +13,7 @@ scrape_coop <- function(url, category) {
   
   instructions <- html_nodes(webpage,"ol") %>%
     html_text() %>% 
+    unique() %>%
     paste(collapse = " ") %>%
     str_replace_all("\\r", "") %>%
     str_replace_all("\\n", "*") %>%
@@ -52,11 +53,11 @@ scrape_coop <- function(url, category) {
   for (i in 1:length(ingredienslista$namn)) {
     collapsedingred <- paste(unlist(ingredienslista$ingredienser), collapse = "\n")
     if (ingredienslista$namn[i] != " ") {
-      collapsedingred <- paste0("### ", ingredienslista$namn[i], "\n\n", collapsedingred)
+      collapsedingred <- paste0("### ", ingredienslista$namn[i], "\n\n", ingredienslista$ingredienser[i])
     }
     ingredients <- c(ingredients, collapsedingred)
   }
-  
+  ingredients <- paste(ingredients, collapse = "\n")
 
   # 
   # ingredients <- webpage %>% 
