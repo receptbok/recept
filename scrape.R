@@ -15,7 +15,7 @@ scrape_coop <- function(url, category) {
     html_text() %>% 
     paste(collapse = " ") %>%
     str_replace_all("\\r", "") %>%
-    str_replace_all("\\n", "* ") %>%
+    str_replace_all("\\n", "*") %>%
     str_trim() %>%
     gsub("\\s+", " ", .) %>%
     str_replace_all("\\*", "\n\\*") %>%
@@ -28,8 +28,8 @@ scrape_coop <- function(url, category) {
     html_text() %>%
     gsub("\\s+", " ", .) %>%
     str_trim() %>%
-    paste(collapse = "\n*") %>%
-    paste0("*", .)
+    paste(collapse = "\n* ") %>%
+    paste0("* ", .)
   
   source <- paste0("Källa: [Coop](", url, ")")
   
