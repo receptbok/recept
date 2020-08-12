@@ -2,12 +2,12 @@
 
 ## Ingredienser
 
-* 1 1/2 msk olivolja
+* 1,5 msk olivolja
 * 1 tsk salt
 * 1 tsk svartpeppar
 * 1 msk finrivet citronskal
 * 500 g laxfilé utan skinn
-* 1/2 msk sesamfrön
+* 0,5 msk sesamfrön
 * 500 g blandade rotfrukter
 * 1 msk olivolja
 * 2 krm salt
@@ -15,11 +15,11 @@
 * 1 riven vitlöksklyfta
 * 1 msk rapsolja
 * 250 g matvete
-* 1/2 förp passerade tomater (à 500 g)
+* 0,5 förp passerade tomater
 * 1 grönsaksbuljongtärning
 * 4 dl vatten
 * 2 krm salt
-* 1/2 msk honung
+* 0,5 msk honung
 * 1 dl finriven parmesanost
 * 65 g ruccola
 * 1 dl rostade hackade hasselnötter

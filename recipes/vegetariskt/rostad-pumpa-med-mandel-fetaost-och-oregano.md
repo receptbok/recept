@@ -10,12 +10,12 @@
 * 2 krm chilipulver
 * 1 rödlök
 * 2 vitlöksklyftor
-* 1/2 kruka oregano
+* 0,5 kruka oregano
 * 50 g hel skalad mandel
 * 150 g snackpaprika
 * 150 g fetaost
 * 65 g babyspenat
-* 1/2 kruka oregano
+* 0,5 kruka oregano
 * 2 dl matyoghurt
 
 ## Instruktioner

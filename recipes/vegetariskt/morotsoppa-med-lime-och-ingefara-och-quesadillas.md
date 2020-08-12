@@ -5,19 +5,19 @@
 * 500 g morötter
 * 1 gul lök
 * 2 msk färsk ingefära
-* 1/2 msk olivolja
-* 5 dl grönsaksbuljong (vatten och tärning eller fond)
-* 1 förp cannellinibönor (à 380 g)
+* 0,5 msk olivolja
+* 5 dl grönsaksbuljong
+* 1 förp cannellinibönor
 * 400 ml kokosmjölk
 * sambal oelek
 * salt
 * peppar
 * 1 lime
 * 200 g halloumiost
-* 1/2 ask färsk gräslök (à 20 g)
-* 1 1/2 dl riven ost
+* 0,5 ask färsk gräslök (à 20 g)
+* 1,5 dl riven ost
 * 8 små tortillabröd
-* 1/2 msk olja
+* 0,5 msk olja
 
 ## Instruktioner
 

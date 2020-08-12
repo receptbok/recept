@@ -2,19 +2,19 @@
 
 ## Ingredienser
 
-* spagetti (gärna fullkorn) för 4–6 pers
+* 4 port spagetti
 * 1 morot
 * 1 gul lök
-* 1-2 vitlöksklyftor
-* rapsolja att fräsa i
-* 1 1/2 dl svarta belugalinser (finns i välsorterade mataffärer)
+* 2 vitlöksklyftor
+* rapsolja
+* 1,5 dl svarta belugalinser
 * 500 g krossade tomater
 * 2 dl crème fraiche
 * 2 dl vatten
 * 1 grönsaksbuljongtärning
 * 1 tsk socker
-* 1 msk balsamvinäger (kan uteslutas)
-* lite spiskummin, om du gillar det
+* 1 msk balsamvinäger
+* spiskummin
 * salt och peppar
 * basilika eller oregano (färsk eller torkad)
 * parmesan till servering

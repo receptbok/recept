@@ -8,7 +8,7 @@
 * 600 g kycklingfilé
 * 1 förp Paul&amp;Thom Chorizo Atado
 * 1  gul lök
-* 2 klyftor vitlök
+* 2 klyfta vitlök
 * smör och/olja till stekning
 * 1,5 dl vitt vin
 * 3 dl vispgrädde

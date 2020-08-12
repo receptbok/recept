@@ -3,20 +3,20 @@
 ## Ingredienser
 
 * 1 vitlöksklyfta
-* 1/2 tsk chilipulver
+* 0,5 tsk chilipulver
 * 1 msk curry
 * 1 tsk kardemumma
 * 1 tsk kanel
 * 2 msk olja
-* 3 dl röda linser (3 dl motsvarar ca 300 g)
-* 7 1/2 dl grönsaksbuljong (vatten + tärning eller fond)
+* 3 dl röda linser
+* 7,5 dl grönsaksbuljong
 * 4 port ris
-* 1/2 påse salladslök (à 125 g)
+* 0,5 påse salladslök
 * 250 g körsbärstomater
 * 1 kruka koriander
 * 2 dl matyoghurt
 * salt och peppar
-* 1/2 citron
+* 0,5 st citron
 
 ## Instruktioner
 

@@ -3,18 +3,18 @@
 ## Ingredienser
 
 * 2 ägg
-* 6 vitlöksklyftor
-* 1/2 dl olja
+* 6 klyfta vitlök
+* 0,5 dl olja
 * 1 röd chili
 * 1 msk vitvinsvinäger
-* 1/2 dl sesamfrön
+* 0,5 dl sesamfrön
 * salt
 * 15 dl kycklingbuljong (vatten och tärning eller fond)
-* ca 600 g strimlad kycklingfilé
+* 600 g strimlad kycklingfilé
 * 4 port nudlar
-* 1/2 påse salladslök (à 125 g)
-* 1/2 kruka koriander
-* 1/2 ask böngroddar (à 180 g)
+* 0,5 påse salladslök (à 125 g)
+* 0,5 kruka koriander
+* 0,5 ask böngroddar (à 180 g)
 
 ## Instruktioner
 

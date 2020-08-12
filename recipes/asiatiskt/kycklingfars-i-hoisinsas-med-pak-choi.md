@@ -5,7 +5,7 @@
 * 4 port ris
 * 150 g svamp (gärna gourmetmix)
 * 250 g pak choi
-* 1/2 förp salladslök (à 125 g)
+* 0,5 förp salladslök (à 125 g)
 * 1 röd chili
 * 500 g kycklingfärs
 * 1 msk olja

@@ -15,7 +15,7 @@
 * 0,5 tsk chilipulver
 * 1 tsk salt
 * 1,5 dl grädde
-* 1-2 dl mjölk
+* 1,5 dl mjölk
 * paneer eller halloumi
 
 ## Instruktioner
