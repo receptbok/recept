@@ -9,9 +9,9 @@
 * 1 förp vegetarisk färs
 * 2 msk smör eller olja
 * 1 dl vatten
-* 1 1/2 dl rött vin
-* 1 förp krossade tomater (à 400 g)
-* 1 -  2 msk tomatpuré
+* 1,5 dl rött vin
+* 1 förp krossade tomater
+* 1,5 msk tomatpuré
 * 2 lagerblad
 * 1 msk timjan
 * salt och peppar
