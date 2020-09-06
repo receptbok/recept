@@ -140,32 +140,25 @@ scrape_dn <- function(url, category) {
   website <- read_html(url)
 
   ingredients_temp <- website %>%
-    html_nodes(".factbox-body") %>%
-    html_nodes("p")
+    html_nodes(".article__body") %>%
+    html_nodes("p") 
 
-  if (length(ingredients_temp) <= 3) {
-    ingredients <- ingredients_temp %>%
-      magrittr::extract(length(ingredients_temp)) %>%
-      str_split("<br>", simplify = TRUE) %>%
-      c() %>%
-      str_replace_all("<p>|</p>", "") %>%
-      paste(collapse = "\n* ") %>%
-      paste("*", .)
-  } else {
-    strong_count <- ingredients_temp %>%
-      str_count("strong")
-    ingredients <- ingredients_temp[strong_count == 0] %>%
-      html_text() %>%
-      paste(collapse = "\n* ") %>%
-      paste("*", .)
-  }
+  ingredients <- ingredients_temp %>%
+    magrittr::extract(2) %>%
+    str_split("<br>", simplify = TRUE) %>%
+    c() %>%
+    str_replace_all("<p>|</p>", "") %>%
+    str_trim() %>%
+    gsub("½", "0,5", .) %>%
+    paste(collapse = "\n* ") %>%
+    paste("*", .)
 
   candidates <- website %>%
-    html_nodes(".article__body-content") %>%
+    html_nodes(".article__body") %>%
     html_nodes("p")
 
   selected <- website %>%
-    html_nodes(".article__body-content") %>%
+    html_nodes(".article__body") %>%
     html_nodes("p") %>%
     html_text() %>%
     str_count("^[0-9]\\.\\s")
@@ -177,8 +170,8 @@ scrape_dn <- function(url, category) {
     paste0("* ", .)
 
   title <- website %>%
-    html_nodes(".article__body-content") %>%
-    html_nodes(".title") %>%
+    html_nodes(".article__title-container") %>%
+    html_nodes(xpath = '//*[@class="article__title"]') %>% 
     html_text()
 
   source <- paste0("Källa: [DN](", url, ")")
@@ -202,28 +195,47 @@ scrape_dn <- function(url, category) {
 }
 scrape_koket <- function(url, category) {
 
+  # title <- read_html(url) %>%
+  #   html_nodes(".recipe-column-wrapper") %>%
+  #   html_nodes("h1") %>% 
+  #   html_text()
+  
+  # instructions <- read_html(url) %>%
+  #   html_nodes(".recipe-column-wrapper") %>%
+  #   html_nodes(xpath = '//*[@id="step-by-step"]') %>%
+  #   html_nodes(xpath = '//*[@class="step-by-step"]') %>% 
+  #   html_nodes(xpath = '//*[@itemprop="recipeInstructions"]') %>% 
+  #   xml_children %>% 
+  #   as.character() %>% 
+  #   gsub("<li>|</li>|</span>|<span>|\n|<br>|<b>", "", .) %>% 
+  #   gsub("</b>", ": ", .) %>%
+  #   paste(collapse = "\n* ") %>%
+  #   paste0("* ", .)
+  
   title <- read_html(url) %>%
-    html_nodes(".recipe-column-wrapper") %>%
-    html_nodes("h1") %>% 
+    html_nodes(".recipe_recipeName__3BmIQ") %>%
     html_text()
-
+  
   instructions <- read_html(url) %>%
-    html_nodes(".recipe-column-wrapper") %>%
     html_nodes(xpath = '//*[@id="step-by-step"]') %>%
-    html_nodes(xpath = '//*[@class="step-by-step"]') %>% 
-    html_nodes(xpath = '//*[@itemprop="recipeInstructions"]') %>% xml_children %>% as.character() %>% gsub("<li>|</li>|</span>|<span>|\n|<br>|<b>", "", .) %>% gsub("</b>", ": ", .) %>%
+    html_nodes(".step-by-step_stepByStep__1cgQX") %>%
+    html_nodes(xpath = '//*[@class="step-by-step_numberedList__1Qy46"]') %>%
+    xml_children %>% 
+    as.character() %>% 
+    gsub("<li>|</li>|</span>|<span>|\n|<br>|<b>", "", .) %>% 
+    gsub("</b>", ": ", .) %>%
     paste(collapse = "\n* ") %>%
     paste0("* ", .)
 
+
+
   ingredients <- read_html(url) %>%
-    html_nodes(".recipe-column-wrapper") %>%
+    html_nodes(".ingredients_ingredientList__1_0ii") %>%
     html_nodes(xpath = '//*[@id="ingredients"]') %>%
     html_nodes(xpath = '//*[@class="ingredient"]') %>% 
     xml_children %>% 
     as.character() %>% 
-    gsub("<span>|</span>", "", .) %>% 
-    matrix(ncol=2,byrow=TRUE) %>% 
-    apply(1, function(x) paste(x, collapse = "")) %>% 
+    gsub("<span>|</span>|<!-- -->", "", .) %>% 
     stringr::str_trim() %>%
     paste(collapse = "\n* ") %>%
     paste("*", .)
