@@ -1,3 +1,3 @@
 ## Vecka 36
 
-  character(0)<br/>character(0)<br/>character(0)<br/>character(0)<br/>character(0)<br/>character(0)<br/>character(0)<br/>character(0)<br/>character(0)
+  [Sesampanerad lax med ponzumajonnäs och krispig sallad](/recipes/fisk/sesampanerad-lax-med-ponzumajonnas-och-krispig-sallad.md)<br/>[Sayadieh - saffransris med vit fisk och tahinidressing](/recipes/fisk/sayadieh---saffransris-med-vit-fisk-och-tahinidressing.md)<br/>[Stekt fisk med sojadressing](/recipes/fisk/stekt-fisk-med-sojadressing.md)<br/>[Ugnsbakad lax med fänkål och paprika](/recipes/fisk/ugnsbakad-lax-med-fankal-och-paprika.md)<br/>[Nudelsoppa med lax och röd curry](/recipes/fisk/nudelsoppa-med-lax-och-rod-curry.md)<br/>[Broken sushi](/recipes/vegetariskt/broken-sushi.md)<br/>[Quinoasallad](/recipes/vegetariskt/quinoasallad.md)<br/>[Mexican rice bowl](/recipes/vegetariskt/mexican-rice-bowl.md)<br/>[Heavenly tofu poké bowl](/recipes/vegetariskt/heavenly-tofu-poké-bowl.md)
