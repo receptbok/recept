@@ -1,3 +1,4 @@
+library(tidyverse)
 veckolista <- list(
   df = tribble(
     ~category, ~url,
