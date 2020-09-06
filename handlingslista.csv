@@ -1,151 +1,175 @@
 ﻿antal,enhet,ingrediens
-3,,ägg
-0.5, ask ,ärtskott
-1,,avokado
-65, g ,babyspenat
-1, msk ,balsamvinäger
-NA,,basilika eller oregano (färsk eller torkad)
-1, dl ,"blandade frön, t ex solrosfrön, pumpakärnor och sesamfrön"
-500, g ,blandade rotfrukter
-0.5, ask ,böngroddar (à 180 g)
-1, kg ,butternutpumpa
-1, förp ,cannellinibönor
-150, g ,champinjoner
+NA,,<strong>Hummusdressing:</strong>
+NA,,<strong>Till servering:</strong>
+0.5, dl ,"0,5+ 1 dl japansk soja"
+4, st ,ägg
+1,,"äpple, granny smith"
+NA,,avokado
+5, dl ,basmatiris
+2,,bit cassiabark (kanelstång)
+1,,bit oskalad krossad ingefära
+180, g ,böngroddar
+2,,"broccoli, huvuden"
+NA,,bröd
+400, g ,champinjoner
+2, msk ,chilibönpasta Toban Djan
+1, tsk ,chiliflakes
+4, msk ,chiliolja
 0.5, tsk ,chilipulver
-0.5, st ,citron
-1,,"citron, rivet skal från"
-1,,"citron, till servering"
-100, g ,cream cheese
-2, dl ,crème fraiche
-1, msk ,curry
-1, knippe ,dill
-NA,,ev parmesanost
-0.5, ask ,färsk gräslök (à 20 g)
-2, msk ,färsk ingefära
-600, g ,fast potatis
-450, g ,fetaost
-1, dl ,finriven parmesanost
-1, msk ,finrivet citronskal
-1,,flaska hoisinsås (à 210 g)
-2, dl ,förkokta gröna ärtor (frysta som tinats)
-500, g ,fryst broccoli
-12.5, dl ,grönsaksbuljong
-2,,grönsaksbuljongtärning
-4,,gul lök
-2,,gul- eller polkabetor
-200, g ,halloumiost
-50, g ,hel skalad mandel
-0.5, msk ,honung
-1, tsk ,kanel
-1, tsk ,kardemumma
-400, g ,kikärter (1 burk)
-1, förp ,kikärtor (400 g)
-8.5,,klyfta vitlök
-400, ml ,kokosmjölk
-NA,,koriander
-1.5, kruka,koriander
-250, g ,körsbärstomater
-2,,krm chilipulver
-4,,krm salt
-1,,krm svartpeppar
-1, förp ,krossade tomater
-500, g ,krossade tomater
-15, dl ,kycklingbuljong (vatten och tärning eller fond)
-500, g ,kycklingfärs
-600, g ,kycklingfilé
-2,,lagerblad
-500, g ,laxfilé utan skinn
-4,,laxfiléer
-1.5,,lime
-1, msk ,ljus sirap
-4, msk ,ljus soja
-70, g ,machêsallad
-250, g ,matvete
-4, dl ,matyoghurt
-1,,morot
+2, msk ,chingkiangvinäger
+NA, g ,cirka 300falafel
+NA, g ,Cirka 400kokta kikärtor
+1,,"citron, finrivet skal"
+0.5,,"citrongräs, finstrimlad"
+NA,,"citronsaft, några droppar"
+2.5, dl ,crème fraîche
+0.5,,del salt
+1,,del socker
+2,,delar risvinäger
+300, g ,delikatesspotatis (eller små färskpotatisar)
+1, dl ,"edamamebönor, tinade (eller sojabönor)"
+1,,fänkål
+1, tsk ,fänkålsfrö
+1.8, dl ,farinsocker
+2, msk ,"färsk dill, hackad"
+NA,,"färsk gräslök, hackad"
+2, msk ,"färsk ingefära, riven"
+2, tsk ,"färsk ingefära, riven"
+NA,,färsk koriander
+250, g ,fast tofu
+1, msk ,gochugaru (koreanskt chilipulver)
+NA, dl ,gräddfil
+1,,grön paprika
+1, st ,grönsaksbuljong
+3,,gula lökar
+2,,"gula lökar, finhackade"
+1.5,,gurka
+0.5, st ,gurka
+1, msk ,gurkmeja
+1, tsk ,gurkmeja
+1, tsk ,honung flytande
+2, msk ,"ingefära, finhackad"
+NA,,inlagda grönsaker
+NA,,japansk soja
+1, dl ,japansk soja
+18, msk ,japansk soja
+NA,,japanskt sushiris
+0.5, tsk ,kajennpeppar
+0.5, tsk ,kanel
+500, g ,keso
+NA,,kikärtor
+3, dl ,kimchi
+7,,klyfta vitlök
+4,,"klyfta vitlök, fint skivade"
+1,,"klyfta vitlök, hackad"
+2,,"klyfta vitlök, riven"
+400, g ,kokosmjölk
+3, kruka,koriander
+0.5, dl ,"koriander, hackad"
+NA,,"krasse, till servering"
+NA, kruka,krispsallad
+1, st ,krispsallat
+0.5,,krm salt
+2, förp ,krossade tomater
+400, g ,krossade tomater
+6, dl ,kycklingbuljong
+700, g ,kycklinginnerfilé
+NA,,lasagneplattor
+400, g ,"lax, tärnad"
+900, g ,laxfilé
+4,,"laxfiléer, à 150 g"
+2,,limefrukt
+NA,,"limefrukt, juice"
+1,,"limefrukt, rivet skal och pressad saft"
+1,,"limefrukt, saft och skal av"
+1, dl ,ljummet vatten
+120, g ,machésallat
+2.5, dl ,majonnäs
+1, dl ,majonnäs (gärna Kewpie)
+1, dl ,majskorn
+1, tsk ,mald spiskummin
+1, tsk ,malen koriander
+2, tsk ,malen spiskummin
+NA,,"matolja, att steka i"
+200, ml ,mörk kinesisk soja
+1,,"morot, fintärnad"
 2,,morötter
-500, g ,morötter
-4, port ,nudlar
+NA,,neutral olja att ringla över + till stekning
+NA,,"neutral rapsolja, till stekning"
+250, g ,nudlar
 NA,,olivolja
-8, msk ,olivolja
-0.5, dl ,olja
-4.5, msk ,olja
-1, kruka,oregano
-250, g ,pak choi
-NA,,parmesan till servering
-0.5, förp ,passerade tomater
-1, förp ,Paul&amp;Thom Chorizo Atado
-0.5, förp ,Paul&amp;Thom kalamata oliver
-1, förp ,Paul&amp;Thom soltorkade plommontomater
+0.5, dl ,olivolja
+NA,,olja till stekning
+1, tsk ,oregano
+200, g ,ostronskivling
+1, tsk ,paprikapulver
 NA,,peppar
-600, g ,potatis
-500, g ,"potatis, kokt"
-250, g ,pulled oats (gärna nude)
-0.33,,purjolök
-3, dl ,quinoa
-NA,,rapsolja
-1, msk ,rapsolja
-8, port ,ris
-1.5, dl ,riven ost
-1,,riven vitlöksklyfta
-2,,röd chili
-3, dl ,röda linser
-2,,rödlök
-2,,rödlökar
-1, dl ,rostade hackade hasselnötter
-2, msk ,rostade sesamfrön
-100, g ,rotselleri
-1.5, dl ,rött vin
-65, g ,ruccola
-NA,,salladsblad eller tortilla
-0.5, påse ,salladslök
-0.5, förp ,salladslök (à 125 g)
-0.5, påse ,salladslök (à 125 g)
-3,,salladslökar
+2,,plommontomater
+8,,portioner
+1, st ,purjolök
+0.25,,purjolök (det vita)
+200, g ,rädisor
+6, msk ,rapsolja
+4, dl ,råris
+10, cm ,rättika
+5, msk ,risvinäger
+1, dl ,risvinsvinäger
+2, dl ,riven ost
+1,,röd chilifrukt
+1, msk ,röd currypasta
+1,,röd paprika
+1,,rödlök
+2, tsk ,rökt paprikapulver
+NA,,romansallad
+200, g ,romanticatomater
+1, dl ,rostad lök
+0.5, dl ,rött vin
+NA,,rundkornigt ris till 4 portioner
+0.5, g ,saffran
+NA,,"saft från 0,5–1 citron"
+NA,,saft från 1 citron
+60, g ,salladslök
+1, st ,salladslök
+5,,salladslökar
 NA,,salt
-2, tsk ,salt
-NA,,salt och peppar
+1, tsk ,salt
 NA,,salt och svartpeppar
-NA,,sambal oelek
-1, msk ,sesamfrö
-0.5, dl ,sesamfrön
-0.5, msk ,sesamfrön
-3, msk ,sesamolja
-150, g ,shiitakesvamp
-8,,små tortillabröd
-1, msk ,smör
-2, msk ,smör eller olja
-NA,,smör och/olja till stekning
-150, g ,snackpaprika
-1, tsk ,socker
-4, port ,spagetti
-NA,,spaghetti eller tagliatelle (gärna fullkorn)
-NA,,spiskummin
-600, g ,strimlad kycklingfilé
-2, dl ,ströbröd
+NA,,salt och svartpeppar efter smak
+1, dl ,salta och rostade cashewnötter
+3, msk ,seafoodkrydda (från kryddkvarn)
+1, tsk ,sesamfrö
+1, msk ,sesamfrön
+2, tsk ,sesamfrön
+4, msk ,"sesamfrön, vita och svarta"
+5.5, msk ,sesamolja
+4.5, tsk ,sesamolja
+1, tsk ,sichuanpeppar
+NA,,sjögräs
+8,,sockerärtor
+NA,,soft tofu
+NA,,sojabönor
+250, g ,sötpotatis
+100, g ,spenat
+1,,spetspaprika
+4.5, msk ,sriracha
+2, tsk ,sriracha
+4,,"sticklökar, den gröna delen skurna som fiskögon"
+1,,stjärnanis
+9, msk ,strösocker
 2, tsk ,strösocker
-150, g ,svamp (gärna gourmetmix)
-1.5, dl ,svarta belugalinser
-1, tsk ,svartpeppar
-0.5,,tärning grönsaksbuljong
-0.5, kruka,timjan
-1, msk ,timjan
-NA,,tomater
-1.5, msk ,tomatpuré
-1, tsk ,torkad koreansk peppar eller chiliflakes
-400, g ,torskfilé
-2, dl ,turkisk yoghurt
-1, ask ,"valfria groddar, t ex alfalfagroddar, rödbetsgroddar, böngroddar"
-8, dl ,vatten
-1, förp ,vegetarisk färs
-1, dl ,vetemjöl
-1, msk ,vinäger
-5, msk ,vinäger (t ex röd eller vit)
-3, dl ,vispgrädde
-2, klyftor ,vitlök
-2,,vitlöksklyfta
-7,,vitlöksklyftor
-1.5, dl ,vitt vin
-2, msk ,vitvinsvinäger
-2, msk ,yoghurt
-0.5,,zucchini
+3, dl ,sushiris
+200, g ,"svamp, shiitake/ostronskivling, riven"
+NA,,svart quinoa till 4 portioner
+2, dl ,"svarta bönor, kokta"
+1, msk ,tahini
+4, msk ,tahinipasta
+2, msk ,tomatpuré
+600, g ,torsk (eller annan msc-märkt vit fisk)
+4, dl ,"vällagrad ost, riven"
+4, dl ,vatten
+400, ml ,vatten
+4, msk ,vatten
+500, g ,vit fisk (t ex torsk)
+2, msk ,"vitlök, finhackad"
+1,,vitlöksklyfta
+2, tsk ,wasabi paste

@@ -24,7 +24,7 @@ hamta_inkopslista <- function(category, url) {
   data.frame(antal, enhet, ingrediens)
 }
 
-out <- purrr::pmap_dfr(veckolista, hamta_inkopslista)
+out <- purrr::pmap_dfr(veckolista$df, hamta_inkopslista)
 out <- mutate(out, 
               antal = str_replace_all(antal, "1/2", "0,5"),
               antal = as.numeric(str_replace_all(antal, ",", ".")),
