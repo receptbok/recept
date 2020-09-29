@@ -213,20 +213,20 @@ scrape_koket <- function(url, category) {
   #   paste0("* ", .)
   
   title <- read_html(url) %>%
-    html_nodes(".recipe_recipeName__3BmIQ") %>%
-    html_text()
+    html_nodes("h1") %>%
+    html_text() %>%
+    .[1]
   
   instructions <- read_html(url) %>%
     html_nodes(xpath = '//*[@id="step-by-step"]') %>%
-    html_nodes(".step-by-step_stepByStep__1cgQX") %>%
-    html_nodes(xpath = '//*[@class="step-by-step_numberedList__1Qy46"]') %>%
     xml_children %>% 
     as.character() %>% 
-    gsub("<li>|</li>|</span>|<span>|\n|<br>|<b>", "", .) %>% 
-    gsub("</b>", ": ", .) %>%
-    paste(collapse = "\n* ") %>%
-    paste0("* ", .)
-
+    .[2]%>% 
+    gsub("<[^>]+>", "",.)%>%
+    gsub("\\\n", "\\\n* ",.)
+  instructions <- gsub("^\\n", "", instructions)
+  instructions <- gsub("\\n\\*$", "", instructions)
+  
 
 
   ingredients <- read_html(url) %>%
@@ -235,7 +235,7 @@ scrape_koket <- function(url, category) {
     html_nodes(xpath = '//*[@class="ingredient"]') %>% 
     xml_children %>% 
     as.character() %>% 
-    gsub("<span>|</span>|<!-- -->", "", .) %>% 
+    gsub("<[^>]+>", "",.) %>% 
     stringr::str_trim() %>%
     paste(collapse = "\n* ") %>%
     paste("*", .)
